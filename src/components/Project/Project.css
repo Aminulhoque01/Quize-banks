@@ -1,0 +1,40 @@
+.project-container{
+    width: 350px;
+    /* height: 250px; */
+    border: 2px solid #ddd;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+.project-container img{
+    width:100%;
+    background-color: rgb(86, 99, 149);
+    border-radius: 5px;
+}
+.name-btn{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 5px;
+   
+}
+.name{
+    padding: 0px;
+    margin: 0px;
+}
+
+.btn{
+    padding: 5px;
+    height:30px;
+    font-size: 14px;
+    color: aliceblue;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgba(123, 33, 208, 0.604);
+}
+
