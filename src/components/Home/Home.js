@@ -2,20 +2,24 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Header from '../Header/Header';
 import Project from '../Project/Project';
+
 import './Home.css'
 
 const Home = () => {
-    const products =useLoaderData();
-    // console.log(products)
+    const {data} =useLoaderData();
+    console.log(data)
 
     return (
         <div>
             <Header></Header>
+
+         
+      
            <div className='home-container'>
                 
 
                 {
-                    products.map(product=><Project key={product.id} product={product}></Project>)
+                    data.map(product=><Project key={product.id} product={product}></Project>)
                 }
 
                 
