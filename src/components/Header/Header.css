@@ -1,0 +1,25 @@
+.heder-container{
+    background-image:linear-gradient(rgba(109, 109, 109, 0.486),rgba(0, 0, 0, 0.918)),
+    url(https://play-lh.googleusercontent.com/CC9gYlJbBCSFq8vKR1f_62oG17-3m7LEQ_GGZSoy_Kk-_uiDwBHX4eVzHkeI3i9Ztg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height:70vh;
+    background-position: center;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    /* padding: 50px; */
+   
+}
+.heder-title{
+ 
+    font-weight: bold;
+    color: aqua;
+    padding:100px;
+    
+    font-size:4em;
+   
+   
+    text-align: center;
+    padding-top:10%;
+}

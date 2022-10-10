@@ -1,0 +1,14 @@
+.error-container{
+    margin: auto;
+    margin-top: 100px;
+}
+.error404{
+    font-size: 50px;
+    color: brown;
+    padding:10px;
+    margin: 0;
+}
+.error-title{
+    font-size: 35px;
+    color: slategrey;
+}
