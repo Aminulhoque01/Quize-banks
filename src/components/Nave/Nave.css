@@ -1,0 +1,24 @@
+.nave-container{
+   
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+    background-color: darkgrey;
+    padding: 10px;
+}
+.nave-title{
+    margin-left: 140px;
+}
+.nave-title h1{
+    padding:0px;
+    margin: 0px;
+}
+.nave-rout{
+    margin-right:120px;
+}
+.nave-rout a{
+    text-decoration: none;
+    font-size: 22px;
+    margin-right:15px;
+
+}
