@@ -10,10 +10,10 @@ const Nave = () => {
                 <h1>Question Banks</h1>
             </div>
             <div className='nave-rout'>
-                <Link to='/'>Home</Link>
-                <Link to='/topics'>Topics</Link>
-                <Link to='/statistics'>Statistics</Link>
-                <Link to='/blog'>Blog</Link>
+                <Link to='/'><li>Home</li></Link>
+                <Link to='/topics'><li>Topics</li></Link>
+                <Link to='/statistics'><li>Statistics</li></Link>
+                <Link to='/blog'><li>Blog</li></Link>
             </div>
         </nav>
     );

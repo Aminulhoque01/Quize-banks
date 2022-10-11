@@ -23,4 +23,40 @@
     margin-right:15px;
 
 }
+.nave-rout a li{
+    list-style: none;
+    display: inline-block;
+}
 
+
+@media only screen and (max-width:600px) {
+    .nave-container{
+   
+        /* display: grid;
+        grid-template-columns: 1rf 1fr; */
+        
+        background-color: darkgrey;
+        padding: 35px;
+        margin-bottom: 0px;
+    }
+   
+    .nave-title{
+        margin-left: 40px;
+    }
+
+    .nave-rout{
+        margin-left:10px;
+
+    }
+    .nave-rout a{
+        text-decoration: none;
+        font-size: 18px;
+        margin-right:10px;
+    
+    }
+
+    .nave-rout a li{
+        list-style: none;
+        
+    }
+}
