@@ -1,0 +1,38 @@
+
+.op-con{
+    display: grid;
+    
+    grid-template-columns: repeat(2,1fr);
+    width: 600px;
+    margin: auto;
+    
+    
+   
+}
+
+.option{
+    border: 1px solid rgb(52, 51, 51);
+   
+    padding: 20px;
+    margin: 20px;
+   border-radius: 10px;
+
+}
+.option:hover{
+    background-color:cadetblue;
+}
+
+
+@media only screen and (max-width:600px) {
+    .op-con{
+        display: grid;
+        
+        grid-template-columns: repeat(1,1fr);
+        width: 300px;
+        margin:auto;
+        padding-left: 70px;
+        
+       
+    }
+
+}
