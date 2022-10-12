@@ -42,18 +42,29 @@
 
 @media only screen and (max-width:600px) {
   
-
-
+    .question-container{
+    
+        width: 40%;
+        margin: auto;
+        border: 1px solid #ddd;
+        margin-top: 40px;
+        border:none;
+        /* margin-left: -80px; */
+    }
+    .eye-icon{
+        margin-left: 250px;
+    }
     .question-title{
         font-size: 25px;
         color: blueviolet;
-        width: 300px;
+        width: 200px;
         margin: auto; 
-        padding-left: 40px;
+        padding-left: 60px;
     }
 
-    .question-container{
-        border:none;
+    .op-con{
+        margin-left:-70px;
+
     }
 
 }

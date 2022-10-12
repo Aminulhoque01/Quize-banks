@@ -39,13 +39,8 @@
 
 
 @media only screen and (max-width:600px) {
-    .nave-container{
-        background-color: rgba(203, 203, 203, 0.374);
-        padding: 35px;
-        margin-bottom: 0px;
-        width:100%;
-    }
    
+  
     .nave-title{
         margin-left: 20px;
     }
