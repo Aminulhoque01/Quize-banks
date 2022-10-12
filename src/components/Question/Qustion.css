@@ -61,14 +61,14 @@
     .question-title{
         font-size: 25px;
         color: blueviolet;
-        width: 200px;
+        width: 300px;
         margin: auto; 
-        padding-left: 60px;
+        margin-left:-90px;
     }
 
     .op-con{
         margin-left:-170px;
-        /* margin: auto; */
+        
     }
    
 
