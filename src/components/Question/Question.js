@@ -34,7 +34,7 @@ const Question = ({dataquestion, count}) => {
 
         <div className='question-container'>
            
-            <h3 className='question-title'>quiz {count}: {finalQuestion}</h3>
+            <h3 className='question-title'>quiz {count+1}: {finalQuestion}</h3>
            
             <p onClick={()=>toast(correctAnswer)} className='eye-icon'><FaEye /></p>
 
