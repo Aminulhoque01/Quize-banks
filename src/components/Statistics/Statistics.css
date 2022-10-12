@@ -15,7 +15,7 @@
     .chart-size{
         width: 350px;
         margin-left:20px;
-        
+        overflow: auto;
     }
         
     
