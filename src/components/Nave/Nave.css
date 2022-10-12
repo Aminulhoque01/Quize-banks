@@ -40,9 +40,6 @@
 
 @media only screen and (max-width:600px) {
     .nave-container{
-   
-       
-        /* justify-content: space-between; */
         background-color: rgba(203, 203, 203, 0.374);
         padding: 35px;
         margin-bottom: 0px;
@@ -50,7 +47,7 @@
     }
    
     .nave-title{
-        margin-left: 40px;
+        margin-left: 20px;
     }
 
     .nave-rout{
