@@ -6,9 +6,10 @@ import 'react-toastify/dist/ReactToastify.css';
 import Option from '../option/Option';
 import './Qustion.css'
 
-const Question = ({dataquestion}) => {
+const Question = ({dataquestion, count}) => {
     
-    const { question, correctAnswer, options}= dataquestion;
+    
+    const {question, correctAnswer, options}= dataquestion;
 
     <ToastContainer/>
 
@@ -22,7 +23,7 @@ const Question = ({dataquestion}) => {
         }
         
     }
-    
+    const finalQuestion = question.slice(3, question.length - 4)
     
 
 
@@ -32,7 +33,8 @@ const Question = ({dataquestion}) => {
        
 
         <div className='question-container'>
-            <h3 className='question-title'>quiz: {question}</h3>
+           
+            <h3 className='question-title'>quiz {count}: {finalQuestion}</h3>
            
             <p onClick={()=>toast(correctAnswer)} className='eye-icon'><FaEye /></p>
 

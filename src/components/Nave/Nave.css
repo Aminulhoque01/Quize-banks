@@ -41,12 +41,13 @@
 @media only screen and (max-width:600px) {
     .nave-container{
    
-        /* display: grid;
-        grid-template-columns: 1rf 1fr; */
-        
-        background-color: darkgrey;
+        display: grid;
+        grid-template-columns: 1rf 1fr;
+        /* justify-content: space-between; */
+        background-color: rgba(203, 203, 203, 0.374);
         padding: 35px;
         margin-bottom: 0px;
+        width:90%;
     }
    
     .nave-title{
@@ -54,7 +55,7 @@
     }
 
     .nave-rout{
-        margin-left:10px;
+        margin-left:100px;
 
     }
     .nave-rout a{

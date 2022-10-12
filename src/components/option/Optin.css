@@ -5,7 +5,7 @@
     grid-template-columns: repeat(2,1fr);
     width: 600px;
     margin: auto;
-    
+   
     
    
 }
@@ -16,7 +16,8 @@
     padding: 20px;
     margin: 20px;
    border-radius: 10px;
-
+   margin-top: 0px;
+   
 }
 .option:hover{
     background-color:cadetblue;

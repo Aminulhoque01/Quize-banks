@@ -1,14 +1,17 @@
-/* .question-container{
+.question-container{
     
     width: 80%;
     margin: auto;
-     
-} */
+    border: 1px solid #ddd;
+     margin-top: 20px;
+}
 .question-title{
     font-size: 25px;
     color: blueviolet;
-    /* width: 600px;
-    margin: auto; */
+    width: 600px;
+    margin: auto;
+    margin-top: 30px;
+    padding-bottom: 0px;
 }
 
 .options p{
@@ -44,9 +47,9 @@
     .question-title{
         font-size: 25px;
         color: blueviolet;
-        width: 200px;
+        width: 300px;
         margin: auto; 
-        padding-left: 80px;
+        padding-left: 40px;
     }
 
 }

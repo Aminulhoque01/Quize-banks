@@ -9,22 +9,26 @@ const Detail = () => {
 
     // const {id}=questions;
     // console.log(questions)
-    
+   
    
     return (
         <div className='detail-container'>
-           <h1>{data.name} Question</h1>
+           <h1 className='name-cls'>{data.name} Question</h1>
 
-           {
-            data.questions.map(dataquestion=><Question 
-                key={dataquestion.id}
-                dataquestion={dataquestion}
-                // showToastMessage={showToastMessage}
-                >
+            {
+                data.questions.map((( dataquestion, count)=><Question 
+                    key={dataquestion.id}
+                    dataquestion={dataquestion}
+                    count={count}
+                    >
 
-                 </Question>)
-           }
+                    </Question>
 
+               ))
+
+                
+            }
+           
           
         </div>
     );

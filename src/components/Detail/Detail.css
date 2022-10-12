@@ -3,3 +3,10 @@
     margin: auto;
 }
 
+
+@media only screen and (max-width:600px) {
+    .name-cls{
+        margin: auto;
+        margin-left: 100px;
+    }
+}
