@@ -1,7 +1,7 @@
 .rechart{
     margin:auto;
-    width:40%;
-    
+    width:30%;
+    /* margin-left:40px; */
 }
 .chart{
     margin-top: 70px;
@@ -9,17 +9,19 @@
 
 
 @media only screen and (max-width:600px) {
-    .rechart{
-        /* margin:auto; */
-        width:20px;
+  
+      
         
+    .chart-size{
+        width: 350px;
+        margin-left:20px;
+        /* background-color: aqua; */
+        overflow:auto;
     }
-
-    .chart{
-        width: 20px;
-        margin-left: 0px;
-    }
-
-   
+        
     
+   
+    .chart{
+        margin-left: -150px;
+    }
 }

@@ -13,12 +13,14 @@ const Statistics = () => {
             
 
             <div className='chart'>
+              <div className='chart-size'>
                 <LineChart width={500} height={400} data={data}>
                     <Line type="monotone" dataKey="total" stroke="#82ca9d" />
                     <XAxis dataKey="name" />
                     <YAxis />
                     <Tooltip></Tooltip>
                 </LineChart>
+              </div>
             </div>
         </div>
     );
