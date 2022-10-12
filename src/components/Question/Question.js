@@ -32,27 +32,29 @@ const Question = ({dataquestion, count}) => {
 
        
 
-        <div className='question-container'>
+        <div className='question'>
+            <div className='question-container'>
            
-            <h3 className='question-title'>quiz {count+1}: {finalQuestion}</h3>
-           
-            <p onClick={()=>toast(correctAnswer)} className='eye-icon'><FaEye /></p>
+           <h3 className='question-title'>quiz {count+1}: {finalQuestion}</h3>
+          
+           <p onClick={()=>toast(correctAnswer)} className='eye-icon'><FaEye /></p>
 
 
-           
-           <div className='op-con' >
-           
+          
+          <div className='op-con' >
+          
 
+          
+               {
+                   options.map(option=><Option key={option.id} 
+                       option={option} 
+                       showToastMessage={showToastMessage}>
+                           
+                       </Option>)
+               }
+          </div>
            
-            {
-                options.map(option=><Option key={option.id} 
-                    option={option} 
-                    showToastMessage={showToastMessage}>
-                        
-                    </Option>)
-            }
-           </div>
-            
+       </div>
         </div>
     );
 };

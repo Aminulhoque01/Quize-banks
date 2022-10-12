@@ -4,6 +4,9 @@
     margin: auto;
     border: 1px solid #ddd;
     margin-top: 20px;
+
+   
+   
 }
 .question-title{
     font-size: 25px;
@@ -49,7 +52,8 @@
         border: 1px solid #ddd;
         margin-top: 40px;
         border:none;
-        /* margin-left: -80px; */
+        
+        
     }
     .eye-icon{
         margin-left: 250px;
@@ -63,8 +67,9 @@
     }
 
     .op-con{
-        margin-left:-70px;
-
+        margin-left:-170px;
+        /* margin: auto; */
     }
+   
 
 }
