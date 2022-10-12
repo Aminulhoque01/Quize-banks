@@ -41,13 +41,12 @@
 @media only screen and (max-width:600px) {
     .nave-container{
    
-        display: grid;
-        grid-template-columns: 1rf 1fr;
+       
         /* justify-content: space-between; */
         background-color: rgba(203, 203, 203, 0.374);
         padding: 35px;
         margin-bottom: 0px;
-        width:90%;
+        width:100%;
     }
    
     .nave-title{
@@ -67,14 +66,12 @@
 
     .nave-rout a li{
         list-style: none;
+        display: block;
+        padding: 0px;
         
     }
 
-    /* .icon-hero{
-        width:30px;
-       display: block;
-    } */
-
+   
     .iCON{
         width:30px;
         display: block;

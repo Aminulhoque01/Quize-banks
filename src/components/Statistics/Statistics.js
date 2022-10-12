@@ -5,12 +5,12 @@ import './Statistics.css';
 
 const Statistics = () => {
     const {data}=useLoaderData();
-    console.log(data);
+    
 
 
     return (
         <div className='rechart'>
-            <h1>this is Statistics{data.length}</h1>
+            
 
             <div className='chart'>
                 <LineChart width={500} height={400} data={data}>
